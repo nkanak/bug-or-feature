@@ -1,0 +1,22 @@
+Window size: 7
+finished...
+GATClassifier(
+  (conv1): GATConv(50, 10, heads=5)
+  (linear1): Linear(in_features=50, out_features=1, bias=True)
+  (sigmoid): Sigmoid()
+)
+Epoch: 0, Epoch loss 0.5691671967506409
+Epoch: 1, Epoch loss 0.5486651062965393
+Epoch: 2, Epoch loss 0.5326549410820007
+Epoch: 3, Epoch loss 0.5221197009086609
+Epoch: 4, Epoch loss 0.5296907424926758
+Epoch: 5, Epoch loss 0.5165285468101501
+Epoch: 6, Epoch loss 0.5141235589981079
+Epoch: 7, Epoch loss 0.5146991610527039
+Epoch: 8, Epoch loss 0.515027642250061
+Epoch: 9, Epoch loss 0.5036476850509644
+Training process has finished.
+Final loss 0.5036476850509644
+(0.7517945516964644, 0.7650174806653247, 0.7387428203966503)
+Number of documents: 407798
+Number of dimensions per document: 50
