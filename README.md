@@ -1,7 +1,11 @@
 # Software bug prediction using graph neural networks and graph-based text representations
 
 This repository is the official implementation of the paper "[Software bug prediction using graph neural networks and graph-based text
-representations](https://www.sciencedirect.com/journal/expert-systems-with-applications)" accepted in the "Expert Systems with Applications" journal.
+representations](https://www.sciencedirect.com/science/article/pii/S0957417424021572)" accepted in the "Expert Systems with Applications" journal.
+
+## Overview
+
+This paper proposes a hybrid approach that builds on the strengths of word embeddings techniques, graph-based representation of textual data and graph neural networks for the prediction of software bugs. Existing approaches aim to improve each of these components individually, thus neglecting structural or semantical underlying information. On the contrary, the approach presented in this paper aims to leverage both types of information by representing each text as a graph and utilizing Graph Attention Networks (GATs). The experiments took place using four datasets of short-text GitHub and Jira issues, which are publicly available on the kaggle.com and zenodo.com platforms respectively.
 
 ![plot](figures/our_approach.jpg)
 
@@ -24,7 +28,23 @@ The datasets needed to run the experiments are available [here](https://github.c
 ## Bibliography
 
 Please cite our two papers if you use this code:
+[Paper 1](https://www.sciencedirect.com/science/article/pii/S0957417424021572), [Paper 2](https://ieeexplore.ieee.org/abstract/document/10097947)
+
+```bibtex
+@article{SIACHOS2025125290,
+title = {Software bug prediction using graph neural networks and graph-based text representations},
+journal = {Expert Systems with Applications},
+volume = {259},
+pages = {125290},
+year = {2025},
+issn = {0957-4174},
+doi = {https://doi.org/10.1016/j.eswa.2024.125290},
+url = {https://www.sciencedirect.com/science/article/pii/S0957417424021572},
+author = {Ilias Siachos and Nikos Kanakaris and Nikos Karacapilidis}
+}
 ```
+
+```bibtex
 @inproceedings{kanakaris2022bug,
   title={Is it a bug or a feature? Identifying software bugs using graph attention networks},
   author={Kanakaris, Nikos and Siachos, Ilias and Karacapilidis, Nikos},
